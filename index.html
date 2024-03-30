@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+
+    <!-- Cascading Style Sheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Personal Finance Tracker</h1>
+
+  <main>
+    <div class="head">
+        <header>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="sub-container">
+                        <div class="total-amount-container">
+                            <h3>Budget</h3>
+                            <!-- <p class="hide error" id="budget-error">Value cannot be empty or negative.</p> -->
+                            <input type="number" id="total-amount" placeholder="Enter Total Amount">
+                            <button class="submit" id="total-amount-button">Set Budget</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="budget-message"></div>
+        </header>
+
+        <header class="balance-header">
+            <div>
+                <h5>Total Balance</h5>
+                <span id="balance">Rs.0</span>
+            </div>
+
+            <div>
+                <h5>Income</h5>
+                <span id="income">Rs.0</span>
+            </div>
+
+            <div>
+                <h5>Expenses</h5>
+                <span id="expense">Rs.0</span>
+            </div>
+        </header>
+    </div>
+
+
+        <section class="remaining-budget-section">
+            <h3>REMAINING BUDGET</h3>
+            <span id="remaining-budget">Rs.0</span>
+        </section>
+
+        <section class="savings-section">
+            <h3>ACTUAL SAVINGS</h3>
+            <span id="savings">Rs.0</span>
+        </section>
+
+        <section>
+            <h3>TRANSACTIONS</h3>
+            <ul id="transactionList"></ul>
+            <div id="status"></div>
+        </section>
+
+    <section>
+        <h3>ADD TRANSACTIONS</h3>
+
+        <form id="transactionForm">
+            <div>
+                <label for="type">
+                    <input type="checkbox" name="type" id="type" />
+                    <div class="option">
+                        <span>Expenses</span>
+                        <span>Income</span>
+                    </div>
+                </label>
+            </div>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Choose Type" required />
+            </div>
+
+            <div>
+                <label for="amount">Amount</label>
+                <input type="number" name="amount" value="0" min="0.01" step="0.01" required />
+            </div>
+
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
