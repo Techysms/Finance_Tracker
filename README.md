@@ -1,7 +1,9 @@
 # Personal Finance Tracker
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 - Finance Tracker is a simple personal finance tracking tool designed to help individuals manage their expenses, income, and set budgets effectively. 
 - This tool provides a convenient way to monitor financial activities without the need for complex visualization.
+
+
 ## Table of Contents
 
 - [Top technologies](#topTechnologies)
@@ -9,11 +11,12 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
+
 ## Top technologies 
+
 ![Static Badge](https://img.shields.io/badge/Html-red?style=for-the-badge&logo=html)
 ![Static Badge](https://img.shields.io/badge/Css-61DBFB?style=for-the-badge&labelColor=black)
 ![Static Badge](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&labelColor=black)
-
 
 ## Features
 
