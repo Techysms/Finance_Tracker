@@ -6,6 +6,8 @@
 ## Top technologies 
 ![Static Badge](https://img.shields.io/badge/Html-red?style=for-the-badge&logo=html)
 ![Static Badge](https://img.shields.io/badge/Css-61DBFB?style=for-the-badge&labelColor=black)
+![Static Badge](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&labelColor=black)
+
 
 ## Features
 
