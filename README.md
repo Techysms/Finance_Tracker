@@ -42,7 +42,7 @@ By following these steps, you can effectively manage your finances using Finance
 
 For any inquiries or support regarding Finance Tracker, feel free to reach out to us via the following channels:
 
-- **Email**: [example@example.com](mailto:saravanansrikanth3112.com)
+- **Email**: [saravanansrikanth1234@gmail.com](mailto:saravanansrikanth3112.com)
 - **GitHub Issues**: [Project Issues](https://github.com/Techysms/Finance_Tracker/issues)
 
 We welcome your feedback, suggestions, and bug reports.
